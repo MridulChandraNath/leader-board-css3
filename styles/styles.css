@@ -12,6 +12,8 @@ body{
     color:  #562EFF;
     font-size: 24px;
     font-weight: 500;
+    margin-top: 30px;
+
 
 }
 main{
@@ -25,18 +27,23 @@ main{
     padding: 30px;
     
 }
+.top-players{
+    margin-bottom: 30px;
+    
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   
-   
     /* grid-template-columns: 1 fr 1 fr 1 fr; */
+    grid-row: 30px;
     
 }
+
 
 .player{
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 .players img{
     height: 56px;
@@ -44,4 +51,7 @@ main{
 }
 .player-name{
     margin-left: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
 }
