@@ -28,7 +28,7 @@ main{
     background-color: #FFFFFF;
     padding: 30px;
     margin-top: 21px;
-    border-radius: 5px;
+    border-radius: 5px  ;
     
 }
 .top-players{
@@ -88,4 +88,37 @@ hr{
 .blog-aurthor a{
     text-decoration: none;
     color: #562EFF;
+}
+
+/* -------------------------Top Courses style-------------------------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+
+.course .course-banner img{
+    height: 104px;
+    width: 224px;
+
+}
+
+
+
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.fa-star{
+    font-size: 12px;
+}
+
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
 }
