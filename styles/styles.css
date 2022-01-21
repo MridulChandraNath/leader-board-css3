@@ -131,9 +131,17 @@ hr{
         width: 100%;
     }
 
-    .players{
-        background-color: red;
+    .players, .blogs, .courses{
+    
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
+    .player, .blog, .course{
+        flex-direction: column;
+    }
+
+
+
+
     
 }
